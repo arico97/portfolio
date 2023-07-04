@@ -1,0 +1,371 @@
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #007bff;
+  }
+  
+  /* Estilos para la sección "Acerca de mí" */
+  
+  #about {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+  }
+  
+  #about .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  
+  #about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para la sección "Experiencia" */
+  
+  #experience {
+    padding: 60px 0;
+  }
+  
+  #experience .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  
+  #experience .card {
+    background-color: #fff;
+    width: 800px;
+    margin: 20px;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #experience .card:hover {
+    transform: scale(1.05);
+  }
+  
+  #experience .card .card-body {
+    padding: 20px;
+  }
+  
+  #experience .card .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+      
+  #experience .card .card-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+      
+  #experience .card .card-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para la sección "Proyectos" */
+
+  #projects {
+    padding: 60px 0;
+  }
+
+  #projects .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  #projects .card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+
+  #projects .card .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #projects .card .card-body {
+    padding: 20px;
+  }
+
+  #projects .card .card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #projects .card .card-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  #projects .card .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #projects .card .btn:hover {
+    background-color: #222;
+    color: #fff;
+  }
+
+/* Estilos para la sección "Educación" */
+
+  #education {
+    padding: 60px 0;
+  }
+
+  #education .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  #education .card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #education .card:hover {
+    transform: scale(1.05);
+  }
+
+  #education .card .card-body {
+    padding: 20px;
+  }
+
+  #education .card .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #education .card .card-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+/* Estilos para la sección "Educación" (continuación) */
+
+  #education .card .card-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+/* Estilos para la sección "Habilidades" */
+
+  #skills {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+  }
+
+  #skills .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  #skills .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  #skills .skill-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+
+  #skills .skill-bar {
+    flex: 1;
+    height: 10px;
+    background-color: #ddd;
+  }
+
+  #skills .skill-bar .skill-level {
+    height: 100%;
+    background-color: #007bff;
+  }
+
+/* Estilos para la sección "Contacto" */
+
+  #contact {
+    padding: 60px 0;
+  }
+
+#contact .section-title {
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 50px;
+}
+
+#contact form {
+margin-bottom: 30px;
+}
+
+#contact form .form-group {
+margin-bottom: 30px;
+}
+
+#contact form .form-control {
+border-radius: 50px;
+border: none;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+padding: 12px 20px;
+font-size: 16px;
+transition: all 0.3s ease-in-out;
+}
+
+#contact form .form-control:focus {
+box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact form .form-check {
+margin-bottom: 30px;
+}
+
+#contact form .form-check .form-check-label {
+font-size: 16px;
+}
+
+#contact form .form-check .form-check-input {
+margin-right: 5px;
+}
+
+#contact .social-links {
+margin-top: 30px;
+}
+
+#contact .social-links a {
+font-size: 24px;
+margin-right: 10px;
+color: #222;
+transition: all 0.3s ease-in-out;
+}
+
+#contact .social-links a:hover {
+color: #007bff;
+}
+
+/* Estilos generales */
+
+.section-title {
+text-align:
+center;
+}
+
+.section-title, .card-title, .card-subtitle {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+/* Adding custom css to align projects as grid */
+
+#projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#projects .card {
+width: 300px;
+margin: 15px;
+align-self: center;
+}
+
+/* Adding custom css to align Education section and skills section as flex grid */
+#education .card, #skills .skill {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#education .card{
+width: 580px;
+margin: 30px;
+align-self: center;
+}
+
+#skills .skill{
+width: 800px;
+margin: 15px;
+align-self: center;
+}
+
+/* Adding custom css for responsive design */
+  @media (max-width: 991px) {
+    #about .col-md-3, #about .col-md-9 {
+    flex-direction: column;
+    align-items: center;
+    }
+    #about img {
+    margin-bottom: 20px;
+    }
+  }
